@@ -7,7 +7,11 @@
 
 public class Main {
   public static void main(String[] args) {
-    personagem h1 = new heroi ("Hulk", 10, 50, "força");
+    personagem h1 = new heroi1("Hulk", 10, 50, "força");
+    personagem v1 = new vilao1("Thanos", 10, 50, "inteligencia");
+
+    System.out.println(h1);
+    System.out.println(v1);
   }
 
 }
