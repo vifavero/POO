@@ -1,4 +1,4 @@
-public abstract class personagem {
+public abstract class personagem implements Criatura {
   private String name;
   private int nivel;
 
